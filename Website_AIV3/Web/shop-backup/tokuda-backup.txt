@@ -1,0 +1,15 @@
+import sqlite3
+
+conn = sqlite3.connect('sql_app.db')
+cursor = conn.cursor()
+
+try:
+    cursor.execute("ALTER TABLE products ADD COLUMN concentration VARCHAR;")
+    cursor.execute("ALTER TABLE products ADD COLUMN longevity VARCHAR;")
+    cursor.execute("ALTER TABLE products ADD COLUMN origin VARCHAR;")
+    print("Đã thêm 3 cột thành công vào sql_app.db!")
+except sqlite3.OperationalError as e:
+    print("Lỗi (có thể cột đã tồn tại):", e)
+
+conn.commit()
+conn.close()

@@ -1,0 +1,7 @@
+sample_products = [
+  { "id": 1, "name": "Chanel No. 5", "brand": "Chanel", "price": 3500000, "image": "https://images.unsplash.com/photo-1595425970377-2f8ded7c7b19?q=80&w=500", "category": "Nước hoa", "gender": "Nữ", "description": "Hương thơm cổ điển với hoa hồng và vani", "stock": 50, "isFeatured": True, "fragrance_family": "Floral" },
+  { "id": 2, "name": "Dior Sauvage", "brand": "Dior", "price": 2800000, "image": "https://images.unsplash.com/photo-1627564073383-524699538357?q=80&w=500", "category": "Nước hoa", "gender": "Nam", "description": "Hương thơm mạnh mẽ với hạt tiêu và gỗ", "stock": 75, "isFeatured": False, "fragrance_family": "Woody" },
+  { "id": 3, "name": "Wood Sage & Sea Salt", "brand": "Jo Malone", "price": 2200000, "image": "https://images.unsplash.com/photo-1541695434435-8629a8888047?q=80&w=500", "category": "Nước hoa", "gender": "Unisex", "description": "Hương thơm tự nhiên của cây xô thơm", "stock": 30, "isFeatured": True, "fragrance_family": "Aquatic" },
+  { "id": 4, "name": "Gucci Bloom", "brand": "Gucci", "price": 3100000, "image": "https://images.unsplash.com/photo-1619994359922-085d8f4553e5?q=80&w=500", "category": "Nước hoa", "gender": "Nữ", "description": "Hương thơm nữ tính với hoa nhài, hoa huệ", "stock": 0, "isFeatured": False, "fragrance_family": "Floral" },
+  # ... thêm các sản phẩm còn lại
+]

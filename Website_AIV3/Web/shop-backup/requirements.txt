@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic[email]
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+alembic
+psycopg2-binary  # Hoặc driver DB bạn dùng, dùng cho PostgreSQL
+# Nếu dùng SQLite thì không cần psycopg2-binary
